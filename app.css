@@ -1,0 +1,61 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.navbar-dark .navbar-nav .nav-link ,.navbar-light .navbar-nav .nav-link:visited , .navbar .navbar-brand{
+    color: #FFFFFF;
+    font-size: 120%;
+}
+.navbar-dark .navbar-nav .nav-link:visited,.navbar-light .navbar-nav .nav-link:visited , .navbar .navbar-brand:visited {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:visited ,.navbar .navbar-brand:hover{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.header_section{
+    background-image: url(./header-bg.jpg);
+    background-size: cover;
+}
+.page {
+    width: auto;
+    min-height: 800px;
+}
+
+.gradient_red_blue{
+    background: #85144b;
+    background: -webkit-linear-gradient(65deg,#85144b,#7FDBFF);
+    background: -o-linear-gradient(65deg,#85144b,#7FDBFF);
+    background: -moz-linear-gradient(65deg,#85144b,#7FDBFF);
+    background: linear-gradient(65deg,#85144b,#7FDBFF);
+}
+
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+/* secssion main in header */
+.section .section-body .section-main-header{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+
+.section .section-body .section-main-header p{
+    font-size: 1.3em;
+}
+.section-main-header hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 0.2em 0;
+    padding: 0;
+    width: 200px;
+}
